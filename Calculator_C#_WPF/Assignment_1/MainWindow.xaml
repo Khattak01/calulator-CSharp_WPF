@@ -1,0 +1,41 @@
+﻿<Window x:Class="Assignment_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_1"
+        mc:Ignorable="d"
+        Title="Assignment#1_FA17_BSE_159" Height="520" Width="800">
+    <Grid Margin="-2,0,0,0" Height="500">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="589*"/>
+            <ColumnDefinition Width="213*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txt_main" HorizontalAlignment="Left" Margin="26,69,0,0" Padding="0,13,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="527" Height="50" FontSize="25" FontWeight="Bold" SelectionTextBrush="#FFBD4444" BorderBrush="#FF343434" TextAlignment="Right" TextChanged="txt_main_TextChanged" BorderThickness="0,0,0,2" />
+        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="26,214,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="26,282,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="26,353,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="161,214,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="161,282,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="161,353,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="297,214,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="297,282,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="297,353,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="297,420,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" Click="Button_Click" FontWeight="Bold" BorderBrush="{x:Null}"/>
+        <Button x:Name="btn_0" Content="0" HorizontalAlignment="Left" Margin="161,420,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_mod" Content="%" HorizontalAlignment="Left" Margin="26,420,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" Click="Button_Click" FontWeight="Bold" BorderBrush="{x:Null}"/>
+        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="437,214,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="437,282,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_mul" Content="*" HorizontalAlignment="Left" Margin="437,353,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_divide" Content="/" HorizontalAlignment="Left" Margin="437,420,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="btn_c" Content="C" HorizontalAlignment="Left" Margin="161,149,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="btnCancel" FontWeight="Bold"/>
+        <Button x:Name="btn_ce" Content="CE" HorizontalAlignment="Left" Margin="297,149,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="btnCancel" FontWeight="Bold"/>
+        <Button x:Name="btn_x" Content="X" HorizontalAlignment="Left" Margin="437,149,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="btnCancel" FontWeight="Light"/>
+        <Button x:Name="btn_xsquare" Content="x^2" HorizontalAlignment="Left" Margin="26,149,0,0" VerticalAlignment="Top" Width="116" Height="45" Background="#FFF7F7F7" BorderBrush="#00707070" Click="Button_Click" FontWeight="Bold"/>
+        <Label x:Name="lbl_result" Content="" HorizontalAlignment="Left" Margin="26,21,0,0" Padding="0,16,15,0" VerticalAlignment="Top" Width="527" Height="38" FontSize="14" HorizontalContentAlignment="Right" FontWeight="Bold" BorderBrush="#FF343434" BorderThickness="0,0,0,1"/>
+        <Label x:Name="lbl_history" Content=""  HorizontalAlignment="Left" Margin="581,69,0,0" Padding="80,0,0,0" VerticalAlignment="Top" Width="211" Height="352" FontWeight="Normal" FontSize="15" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_history_" Content="History" HorizontalAlignment="Left" Padding="60,7,0,0"  Margin="581,16,0,0" VerticalAlignment="Top" Width="211" Height="48" FontSize="25" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button x:Name="btn_clearHistory" Content="ClearHistory" HorizontalAlignment="Left" Margin="581,438,0,0" VerticalAlignment="Top" Width="141" Height="27" Background="#FFF7F7F7" BorderBrush="#00707070" Click="clearHistory" FontWeight="Bold" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\bin\Debug\netcoreapp3.1\Assignment_1.exe
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\bin\Debug\netcoreapp3.1\Assignment_1.deps.json
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\bin\Debug\netcoreapp3.1\Assignment_1.runtimeconfig.json
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\bin\Debug\netcoreapp3.1\Assignment_1.runtimeconfig.dev.json
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\bin\Debug\netcoreapp3.1\Assignment_1.dll
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\bin\Debug\netcoreapp3.1\Assignment_1.pdb
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1_MarkupCompile.cache
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1_MarkupCompile.lref
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1.g.resources
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1.AssemblyInfoInputs.cache
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1.AssemblyInfo.cs
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1.dll
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1.pdb
+C:\Users\Khattak01\source\repos\Lab_4\Assignment_1\obj\Debug\netcoreapp3.1\Assignment_1.csprojAssemblyReference.cache
